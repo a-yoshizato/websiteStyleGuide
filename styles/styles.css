@@ -90,69 +90,70 @@ ul.colors {
      text-align: center;
 }
 
-.color1, .color2, .color3 {
+li.color1, li.color2, li.color3 {
     height: 50px;
     width: 20%;
     text-align: center;
     margin: 10px 10px;
-    padding-top: 25px;
+    padding-top: 20px;
     display: inline-block;
 }
 
-.color1 {
-    background-color: blue;
+li.color1 {
+    background-color: Navy;
     color: white; 
 }
 
-.color2 {
-    background-color: rgb(209, 56, 184);
+li.color2 {
+    background-color: teal;
     color: white; 
 }
 
-.color3 {
-    background-color: rgb(226, 228, 121);
+li.color3 {
+    background-color: yellow;
     color: black; 
 }
 
 /* Font Styles Block */
-.font1, .font2, .font3, .font4 {
+div.font1, div.font2, div.font3 {
     margin: 10px;
     background-color: white;
     text-align: center;
     font-size: 18px;
-    padding: 5
-    px
+    padding: 5px;
 }
 
-.font1 {
+p.font1 {
     font-family: Arial;
 }
 
-.font2 {
-    font-family: 'Times New Roman';
-}
-
-.font3 {
-    font-family: 'Courier New';
-}
-
-.font4 {
+p.font2 {
     font-family: Verdana;
 }
 
-.font_italic {
+p.font3 {
+    font-family: Times;
+}
+
+p.font_italic {
     font-style: italic;
 }
 
-.font_bold {
+p.font_bold {
     font-weight: bold;
 }
 
 /* Text Styles Block */
+div.styles {
+    padding: 10px;
+    height: auto;
+    background-color: rgb(230, 218, 230);
+}
+
 ul.styleDescription {
     font-family: 'Courier New';
     font-size: 16px;
-    padding: 5px;
+    padding: 10px;
 }
 
 p.styleH1 {
@@ -173,10 +174,5 @@ p.styleP {
     font-size: 14px;
 }
 
-div.styles {
-    padding: 10px;
-    height: auto;
-    background-color: rgb(230, 218, 230);
-}
 
 
